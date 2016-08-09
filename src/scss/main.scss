@@ -1,0 +1,30 @@
+@import "includes/normalize";
+@import "includes/variables";
+
+.main {
+  padding: 30px 20px 70px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.text-wrapper {
+  max-width: 600px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+.list {
+  padding-left: 0;
+  list-style: none;
+
+  &__item {
+    padding-bottom: 10px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
